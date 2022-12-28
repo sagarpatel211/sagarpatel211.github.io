@@ -1,14 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sagar Patel</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sagar</title>
+    <link rel="icon" href="./images/favicon.webp">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"/>
+    <script src="https://code.iconify.design/2/2.0.4/iconify.min.js"></script>
+    <script src="./repo-card.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--Animation-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
-    <h1>Still a work in progress :)</h1>
-	<script src="app.js"></script>
+    <section>
+      <div class="container">
+        <div id="top" class="page-scroll"></div>
+        <!-- Navbar -->
+        <header>
+          <a href="#top" class="logo">Sagar</a>
+          <ul>
+            <li><a class="active page" href="#top" id="home-btn">Home</a></li>
+            <li><a href="#about" class="page" id="about-btn">About Me</a></li>
+            <li><a href="#experience" class="page"id="experience-btn">Experience</a></li>
+            <li><a href="#projects" class="page" id="project-btn">Projects</a></li>
+            </li>
+          </ul>
+        </header>
+
+        <!-- Main Content -->
+        <div class="content">
+          <div>
+            <span style="position:absolute; z-index:-2; top:100px; right:100px; height: 500px; width: 500px; background-image: linear-gradient(rgb(78, 141, 86),rgb(72, 103, 151)); border-radius: 50%; "></span>
+          </div>
+          <div>
+            <span style="position:absolute; z-index:-2; top:300px; left:50px; height: 700px; width: 700px; background-image: linear-gradient(rgb(209, 72, 188),rgb(73, 88, 158)); border-radius: 50%; "></span>
+          </div>
+          <div class="column">
+            <h2 data-aos="fade-down" data-aos-duration="1000">Hey, I'm Sagar<span class="wave">👋</span></h2>
+            <p data-aos="fade-right" data-aos-duration="1000">
+              I am a 2nd year Computer Science Student at the University of Waterloo! I enjoy
+              writing code and learning new things! Want to discuss anything or event just say hi?
+              Feel free to contact me! 🙂
+            </p>
+            <a href="#home" data-aos="fade-right" data-aos-duration="1000">Contact Me</a>
+            <!-- <a href="#home" data-aos="fade-right" data-aos-duration="1000">Resume</a> -->
+          </div>
+          <div class="img">
+            <img src="./images/transparent-img.png" 
+            data-aos="fade-up-right" data-aos-duration="1000"/>
+          </div>
+        </div>
+        <!-- 2nd Section -->
+        <div id="about" class="content page-scroll" style="justify-content: space-around">
+          <div class="img" data-aos="fade-right" data-aos-duration="1000">
+            <img style="width: 300px;" src="./images/small-transparent-img.png"/>
+          </div>
+          <div class="column-2">
+            <h2 style="font-weight: 550">
+              <span class="low-highlight-pink">About Me</span>
+            </h2>
+            <h3 style="font-size: 24px; color: rgb(232, 230, 227);; font-weight: 1; margin-bottom: 10px;">
+              Here's a list of my skills and abilities!
+            </h3>
+            <div class="dev-icons">
+              <ul>
+                <li class="software-skill-inline c">
+                  <i class="devicon-c-plain"></i><p style="color: rgb(232, 230, 227);">C</p>
+                </li>
+                <li class="software-skill-inline cplusplus">
+                  <i class="devicon-cplusplus-plain"></i><p style="color: rgb(232, 230, 227);">C++</p>
+                </li>
+                <li class="software-skill-inline html5">
+                  <i class="devicon-html5-plain"></i><p style="color: rgb(232, 230, 227);">HTML5</p>
+                </li>
+                <li class="software-skill-inline css3">
+                  <i class="devicon-css3-plain"></i><p style="color: rgb(232, 230, 227);">CSS3</p>
+                </li>
+                <li class="software-skill-inline javascript">
+                  <i class="devicon-javascript-plain"></i><p style="color: rgb(232, 230, 227);">JavaScript</p>
+                </li>
+                <li class="software-skill-inline python">
+                  <i class="devicon-python-plain"></i><p style="color: rgb(232, 230, 227);">Python</p>
+                </li>
+                <li class="software-skill-inline flask">
+                  <i class="devicon-flask-plain"></i><p style="color: rgb(232, 230, 227);">Flask</p>
+                </li>
+                <li class="software-skill-inline linux">
+                  <i class="devicon-linux-plain"></i><p style="color: rgb(232, 230, 227);">Linux</p>
+                </li>
+                <li class="software-skill-inline latex">
+                  <i class="devicon-latex-original"></i><p style="color: rgb(232, 230, 227);">LaTeX</p>
+                </li>
+                <li class="software-skill-inline tensorflow">
+                  <i class="devicon-tensorflow-original"></i><p style="color: rgb(232, 230, 227);">Tensorflow</p>
+                </li>
+                <li class="software-skill-inline bash">
+                  <i class="devicon-bash-plain"></i><p style="color: rgb(232, 230, 227);">Bash</p>
+                </li>
+                <li class="software-skill-inline git">
+                  <i class="devicon-git-plain"></i><p style="color: rgb(232, 230, 227);">Git</p>
+                </li>
+                <li class="software-skill-inline docker">
+                  <i class="devicon-docker-plain"></i><p style="color: rgb(232, 230, 227);">Docker</p>
+                </li>
+                <li class="software-skill-inline kubernetes">
+                  <i class="devicon-kubernetes-plain"></i><p style="color: rgb(232, 230, 227);">Kubernetes</p>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <p style="color: rgb(232, 230, 227); font-size: 20px">
+                <img
+                  alt="⚡" draggable="false" src="https://twemoji.maxcdn.com/2/72x72/26a1.png"
+                  style=" height: 1em; width: 1em; margin: 0px 0.05em 0px 0.1em; vertical-align: -0.1em;"/>
+                I enjoy making fun and useful projects (check some of them out below!). Reach out if you'd like to work together!
+              </p>
+              <p style="color: rgb(232, 230, 227); font-size: 20px">
+                <img alt="⚡" draggable="false" src="https://twemoji.maxcdn.com/2/72x72/26a1.png" style="
+                    height: 1em; width: 1em; margin: 0px 0.05em 0px 0.1em; vertical-align: -0.1em;"/>
+                I enjoy playing chess, solving puzzles, and am an enthusiastic fan of F1 Racing 🏎️
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3rd Section -->
+        <h2
+          data-aos="fade-down" data-aos-duration="1500"
+          id="experience"
+          class="mob-h2 page-scroll"
+          style="font-size: 56px; font-weight: 700; margin-top: 50px; text-align:center; color: rgb(232, 230, 227);">
+          <span class="low-highlight-cyan">Experience</span>
+        </h2>
+        <div class="experience-cards-div">
+          <div class="experience-card" data-aos="fade-right" data-aos-duration="2500">
+            <div class="experience-banner" style="background: rgb(0, 0, 0)">
+              <div class="experience-blurred_div"></div>
+              <div class="experience-div-company">
+                <img style="width: 100%; height:100%; z-index: 0; border-radius: 10px 10px 0 0;" src="./images/wndrvr-banner.jpg"/>
+              </div>
+              <img crossorigin="anonymous" style="z-index: 2;"class="experience-roundedimg" src="./images/wndrvr-logo.jpg"/>
+            </div>
+            <div class="experience-text-details">
+              <h5 class="experience-text-role">Intelligent Edge Software Developer</h5>
+              <h5 class="experience-text-date">Sept 2022 – Dec 2022</h5>
+              <p class="subTitle experience-text-desc">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+        </div>
+        <h2
+          id="projects"
+          class="mob-h2 page-scroll"
+          style="font-size: 56px; font-weight: 700; margin-top: 50px"
+        >
+          <span class="low-highlight-skin" style="color: rgb(232, 230, 227);">Projects</span>
+        </h2>
+        <div class="projects" data-aos="fade-up" data-aos-duration="1500">
+          <div class="repo-card" data-repo="sagarpatel211/Utivity"></div>
+          <div class="repo-card" data-repo="sagarpatel211/RedditSearch"></div>
+          <div class="repo-card" data-repo="sagarpatel211/Blackjack-Pygame"></div>
+          <div class="repo-card" data-repo="sagarpatel211/Sizzle2.0Odometry"></div>
+        </div>
+        <ul class="socialsites">
+          <li><a href="https://github.com/sagarpatel211"><img style="width: 24px;" src="./images/github-icon.png"></a></li>
+          <li><a href="https://www.linkedin.com/in/sagar-patel-1914671b5/"><img style="width: 24px;" src="./images/linkedin-icon.png"></a></li>
+          <li><a href="mailto:sa24pate@uwaterloo.ca"><img style="width: 24px;" src="./images/email-icon.png"></a></li>
+        </ul>
+
+        <!-- Footer -->
+      </div>
+    </section>
+    <div class="button-top-div" id="myDIV">
+      <a id="button-top" href="#top"><img style="width: 20px;" src="./images/up-arrow.png"></i></a>
+    </div>
+    <div style="color:aliceblue; text-align: center; padding-bottom: 20px;">
+      ✨ Made with <a style="text-decoration: none; color: aquamarine;" href="https://github.com/AmreshSinha/glassFolio">GlassFolio ✨</a>
+    </div>
+
+    <!-- Page Scroll Percentage -->
+    <script src="./script.js"></script>
+
+    <!-- Page Scroll Up On Click -->
+    <script>
+      //scroller fixed
+      var scrolBtn = document.querySelector("#myDIV");
+      window.addEventListener("scroll", function () {
+        let offset;
+        offset = window.pageYOffset;
+        if (offset > 300) {
+          scrolBtn.style.display = "block";
+        }
+        if (offset < 300) {
+          scrolBtn.style.display = "none";
+        }
+      });
+
+      //remove that #s in the link
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+            block: "center",
+          });
+        });
+      });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
