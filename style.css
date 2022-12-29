@@ -679,6 +679,22 @@ header ul li a.active {
   color: #316ce4;
 }
 
+.nodejs i {
+  color: #868e96;
+}
+
+.nodejs i:hover {
+  color: #316ce4;
+}
+
+.reactjs i {
+  color: #339933;
+}
+
+.reactjs i:hover {
+  color: #61DAFB;
+}
+
 .highlight-yellow-brush {
   background: url(/assets/yellow-brushstroke.png);
   background-repeat: no-repeat;
