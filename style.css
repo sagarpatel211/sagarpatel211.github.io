@@ -684,11 +684,11 @@ header ul li a.active {
 }
 
 .nodejs i:hover {
-  color: #316ce4;
+  color: #339933;
 }
 
 .reactjs i {
-  color: #339933;
+  color: #868e96;
 }
 
 .reactjs i:hover {
