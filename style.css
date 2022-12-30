@@ -695,6 +695,13 @@ header ul li a.active {
   color: #61DAFB;
 }
 
+.expressjs i {
+  color: #868e96;
+}
+
+.expressjs i:hover {
+  color: #000000;
+}
 .highlight-yellow-brush {
   background: url(/assets/yellow-brushstroke.png);
   background-repeat: no-repeat;
