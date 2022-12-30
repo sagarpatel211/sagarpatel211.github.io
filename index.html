@@ -127,7 +127,6 @@
                 </li>
               </ul>
             </div>
-
             <div>
               <p style="color: rgb(232, 230, 227); font-size: 20px">
                 <img
@@ -177,11 +176,7 @@
             </div>
           </div>
         </div>
-        <h2
-          id="projects"
-          class="mob-h2 page-scroll"
-          style="font-size: 56px; font-weight: 700; margin-top: 50px"
-        >
+        <h2 id="projects" class="mob-h2 page-scroll" style="font-size: 56px; font-weight: 700; margin-top: 50px">
           <span class="low-highlight-skin" style="color: rgb(232, 230, 227);">Projects</span>
         </h2>
         <div class="projects" data-aos="fade-up" data-aos-duration="1500">
@@ -222,18 +217,6 @@
         if (offset < 300) {
           scrolBtn.style.display = "none";
         }
-      });
-
-      //remove that #s in the link
-      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-        anchor.addEventListener("click", function (e) {
-          e.preventDefault();
-
-          document.querySelector(this.getAttribute("href")).scrollIntoView({
-            behavior: "smooth",
-            block: "center",
-          });
-        });
       });
     </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
