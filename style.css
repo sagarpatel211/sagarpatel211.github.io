@@ -559,140 +559,76 @@ header ul li a.active {
   color: #645beb;
 }
 
-.c i {
-  color: #868e96;
-}
-
 .c i:hover {
   color: #03599c;
-}
-
-.cplusplus i {
-  color: #868e96;
 }
 
 .cplusplus i:hover {
   color: #9c033a;
 }
 
-.html5 i {
-  color: #868e96;
-}
-
 .html5 i:hover {
   color: #e54d26;
-}
-
-.css3 i {
-  color: #868e96;
 }
 
 .css3 i:hover {
   color: #3d8fc6;
 }
 
-.javascript i {
-  color: #868e96;
-}
-
 .javascript i:hover {
   color: #f0db4f;
-}
-
-.python i {
-  color: #868e96;
 }
 
 .python i:hover {
   color: #ffd845;
 }
 
-.flask i {
-  color: #868e96;
-}
-
 .flask i:hover {
   color: #010101;
-}
-
-.linux i {
-  color: #868e96;
 }
 
 .linux i:hover {
   color: #000;
 }
 
-.latex i {
-  color: #868e96;
-}
-
 .latex i:hover {
   color: #44a444;
-}
-
-.tensorflow i {
-  color: #868e96;
 }
 
 .tensorflow i:hover {
   color: #ed8e24;
 }
 
-.bash i {
-  color: #868e96;
-}
-
 .bash i:hover {
   color: #88a763;
-}
-
-.git i {
-  color: #868e96;
 }
 
 .git i:hover {
   color: #f25334;
 }
 
-.docker i {
-  color: #868e96;
-}
-
 .docker i:hover {
   color: #2496ec;
-}
-
-.kubernetes i {
-  color: #868e96;
 }
 
 .kubernetes i:hover {
   color: #316ce4;
 }
 
-.nodejs i {
-  color: #868e96;
-}
-
 .nodejs i:hover {
   color: #339933;
-}
-
-.reactjs i {
-  color: #868e96;
 }
 
 .reactjs i:hover {
   color: #61DAFB;
 }
 
-.expressjs i {
-  color: #868e96;
-}
-
 .expressjs i:hover {
   color: black;
+}
+
+.mongodb i:hover {
+  color: #47A248;
 }
 
 .highlight-yellow-brush {
@@ -1180,7 +1116,6 @@ footer ul li a.active {
 }
 
 #button-top::after {
-  /* content: "\f077"; */
   font-family: FontAwesome;
   font-weight: normal;
   font-style: normal;
